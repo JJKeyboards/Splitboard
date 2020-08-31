@@ -382,4 +382,141 @@ Text GLabel 1200 2300 0    50   Input ~ 0
 D+
 Text GLabel 1200 2400 0    50   Input ~ 0
 D-
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 5F4D72AE
+P 1400 6100
+F 0 "J?" H 1507 6967 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1507 6876 50  0000 C CNN
+F 2 "" H 1550 6100 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1550 6100 50  0001 C CNN
+	1    1400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F4DA8E6
+P 2400 5700
+F 0 "R?" V 2204 5700 50  0000 C CNN
+F 1 "5.1k" V 2295 5700 50  0000 C CNN
+F 2 "" H 2400 5700 50  0001 C CNN
+F 3 "~" H 2400 5700 50  0001 C CNN
+	1    2400 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F4DB46A
+P 2400 5800
+F 0 "R?" V 2500 5800 50  0000 C CNN
+F 1 "5.1k" V 2600 5800 50  0000 C CNN
+F 2 "" H 2400 5800 50  0001 C CNN
+F 3 "~" H 2400 5800 50  0001 C CNN
+	1    2400 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4DBB17
+P 2850 5800
+F 0 "#PWR?" H 2850 5550 50  0001 C CNN
+F 1 "GND" H 2855 5627 50  0000 C CNN
+F 2 "" H 2850 5800 50  0001 C CNN
+F 3 "" H 2850 5800 50  0001 C CNN
+	1    2850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4DC6DD
+P 3000 5700
+F 0 "#PWR?" H 3000 5450 50  0001 C CNN
+F 1 "GND" H 3005 5527 50  0000 C CNN
+F 2 "" H 3000 5700 50  0001 C CNN
+F 3 "" H 3000 5700 50  0001 C CNN
+	1    3000 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5700 2500 5700
+Wire Wire Line
+	2850 5800 2500 5800
+Wire Wire Line
+	2300 5800 2000 5800
+Wire Wire Line
+	2300 5700 2000 5700
+Wire Wire Line
+	2000 6000 2000 6100
+Wire Wire Line
+	2000 6100 2100 6100
+Connection ~ 2000 6100
+Wire Wire Line
+	2000 6200 2000 6300
+Wire Wire Line
+	2000 6300 2100 6300
+Connection ~ 2000 6300
+NoConn ~ 2000 6600
+NoConn ~ 2000 6700
+$Comp
+L power:VCC #PWR?
+U 1 1 5F4E5B6C
+P 2250 5350
+F 0 "#PWR?" H 2250 5200 50  0001 C CNN
+F 1 "VCC" H 2267 5523 50  0000 C CNN
+F 2 "" H 2250 5350 50  0001 C CNN
+F 3 "" H 2250 5350 50  0001 C CNN
+	1    2250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5500 2250 5500
+Wire Wire Line
+	2250 5500 2250 5350
+$Comp
+L Device:Polyfuse_Small F?
+U 1 1 5F4E76E9
+P 2600 5350
+F 0 "F?" V 2395 5350 50  0000 C CNN
+F 1 "500mA" V 2486 5350 50  0000 C CNN
+F 2 "" H 2650 5150 50  0001 L CNN
+F 3 "~" H 2600 5350 50  0001 C CNN
+	1    2600 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2250 5350 2500 5350
+Connection ~ 2250 5350
+$Comp
+L power:+5V #PWR?
+U 1 1 5F4E9BB4
+P 2950 5350
+F 0 "#PWR?" H 2950 5200 50  0001 C CNN
+F 1 "+5V" H 2965 5523 50  0000 C CNN
+F 2 "" H 2950 5350 50  0001 C CNN
+F 3 "" H 2950 5350 50  0001 C CNN
+	1    2950 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 5350 2950 5350
+Text GLabel 2100 6300 2    50   Input ~ 0
+D+
+Text GLabel 2100 6100 2    50   Input ~ 0
+D-
+Wire Wire Line
+	1100 7000 1400 7000
+Connection ~ 1400 7000
+Wire Wire Line
+	1400 7000 1550 7000
+$Comp
+L power:GND #PWR?
+U 1 1 5F4EEDED
+P 1550 7000
+F 0 "#PWR?" H 1550 6750 50  0001 C CNN
+F 1 "GND" H 1555 6827 50  0000 C CNN
+F 2 "" H 1550 7000 50  0001 C CNN
+F 3 "" H 1550 7000 50  0001 C CNN
+	1    1550 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
