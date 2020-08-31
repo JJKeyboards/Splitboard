@@ -1079,4 +1079,86 @@ F 3 "~" H 5350 1800 50  0001 C CNN
 	1    5350 1800
 	1    0    0    -1  
 $EndComp
+Text GLabel 4950 2500 2    50   Input ~ 0
+SCL
+Text GLabel 4950 2600 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	3750 2500 4350 2500
+$Comp
+L Device:R_Small R7
+U 1 1 5F600E12
+P 4350 2250
+F 0 "R7" H 4409 2296 50  0000 L CNN
+F 1 "4.7k" H 4409 2205 50  0000 L CNN
+F 2 "" H 4350 2250 50  0001 C CNN
+F 3 "~" H 4350 2250 50  0001 C CNN
+	1    4350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R8
+U 1 1 5F60260E
+P 4050 2250
+F 0 "R8" H 4109 2296 50  0000 L CNN
+F 1 "4.7k" H 4109 2205 50  0000 L CNN
+F 2 "" H 4050 2250 50  0001 C CNN
+F 3 "~" H 4050 2250 50  0001 C CNN
+	1    4050 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2350 4350 2500
+Connection ~ 4350 2500
+Wire Wire Line
+	4350 2500 4950 2500
+Wire Wire Line
+	3750 2600 4050 2600
+Wire Wire Line
+	4050 2350 4050 2600
+Connection ~ 4050 2600
+Wire Wire Line
+	4050 2600 4950 2600
+Wire Wire Line
+	4050 2150 4350 2150
+Wire Wire Line
+	4050 2150 4050 1000
+Wire Wire Line
+	4050 1000 3250 1000
+Connection ~ 4050 2150
+Connection ~ 3250 1000
+Text GLabel 5700 1800 2    50   Input ~ 0
+SCL
+Text GLabel 5700 1900 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	5550 1900 5700 1900
+Wire Wire Line
+	5550 1800 5700 1800
+$Comp
+L power:GND #PWR?
+U 1 1 5F621847
+P 5700 2000
+F 0 "#PWR?" H 5700 1750 50  0001 C CNN
+F 1 "GND" H 5705 1827 50  0000 C CNN
+F 2 "" H 5700 2000 50  0001 C CNN
+F 3 "" H 5700 2000 50  0001 C CNN
+	1    5700 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2000 5700 2000
+$Comp
+L power:+5V #PWR?
+U 1 1 5F626768
+P 5700 1700
+F 0 "#PWR?" H 5700 1550 50  0001 C CNN
+F 1 "+5V" H 5715 1873 50  0000 C CNN
+F 2 "" H 5700 1700 50  0001 C CNN
+F 3 "" H 5700 1700 50  0001 C CNN
+	1    5700 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1700 5700 1700
 $EndSCHEMATC
