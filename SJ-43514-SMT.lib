@@ -1,0 +1,49 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SJ-43514-SMT
+#
+DEF SJ-43514-SMT J 0 40 Y N 1 L N
+F0 "J" -301 331 50 H V L BNN
+F1 "SJ-43514-SMT" -301 -401 50 H V L BNN
+F2 "CUI_SJ-43514-SMT" 0 0 50 H I L BNN
+F3 "4 conductor 3.5 mm Surface Mount Audio Jack" 0 0 50 H I L BNN
+F4 "Unavailable" 0 0 50 H I L BNN
+F5 "SJ-43514-SMT" 0 0 50 H I L BNN
+F6 "0.93 USD" 0 0 50 H I L BNN
+F7 "CUI" 0 0 50 H I L BNN
+F8 "None" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -240 85 -240 -95 N
+P 2 0 0 10 -240 -95 -160 -95 N
+P 2 0 0 10 -160 -95 -160 85 N
+P 2 0 0 10 -160 85 -240 85 N
+P 2 0 0 10 -90 100 -40 30 N
+P 2 0 0 10 -40 30 10 100 N
+P 2 0 0 10 300 300 300 200 N
+P 2 0 0 10 300 -200 300 -300 N
+P 2 0 0 10 300 -300 -300 -300 N
+P 2 0 0 10 -300 -300 -300 300 N
+P 2 0 0 10 -300 300 300 300 N
+P 2 0 0 10 185 -200 300 -200 N
+P 2 0 0 10 85 -200 135 -130 N
+P 2 0 0 10 135 -130 185 -200 N
+P 2 0 0 10 300 200 -200 200 N
+P 2 0 0 10 -200 200 -200 90 N
+P 2 0 0 10 300 200 300 100 N
+P 2 0 0 10 300 100 300 0 N
+P 2 0 0 10 300 0 300 -200 N
+P 2 0 0 10 15 100 300 100 N
+P 2 0 0 10 95 0 300 0 N
+P 2 0 0 10 -5 0 45 -60 N
+P 2 0 0 10 45 -60 95 0 N
+X ~ 1 400 200 100 L 40 40 0 0 P 
+X ~ 2 400 -200 100 L 40 40 0 0 P 
+X ~ 3 400 0 100 L 40 40 0 0 P 
+X ~ 4 400 100 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
