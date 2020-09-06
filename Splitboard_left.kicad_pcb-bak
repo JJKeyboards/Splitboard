@@ -810,7 +810,7 @@
   )
 
   (module MX_Only:MXOnly-1U-NoLED (layer F.Cu) (tedit 5BD3C6C7) (tstamp 5F4FE719)
-    (at 181.673257 114.298749 60)
+    (at 181.673257 118.99995 60)
     (path /5F50E5AE)
     (fp_text reference KC_53 (at 0 3.175 60) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -900,7 +900,7 @@
   )
 
   (module MX_Only:MXOnly-1U-NoLED (layer F.Cu) (tedit 5BD3C6C7) (tstamp 5F4FE6C5)
-    (at 160.253266 111.123749 345)
+    (at 160.253266 115.826618 345)
     (path /5F50E5BB)
     (fp_text reference KC_43 (at 0 3.175 165) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1020,7 +1020,7 @@
   )
 
   (module MX_Only:MXOnly-1U-NoLED (layer F.Cu) (tedit 5BD3C6C7) (tstamp 5F4FE671)
-    (at 138.833275 108.742499)
+    (at 138.833275 113.446619)
     (path /5F50E5C8)
     (fp_text reference KC_33 (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1410,10 +1410,10 @@
   )
 
   (module SJ-43514-SMT:CUI_SJ-43514-SMT (layer B.Cu) (tedit 5F4E730C) (tstamp 5F4FE560)
-    (at 182.46659 99.166625 180)
+    (at 182.46659 99.959958 180)
     (path /5F4F21CF)
     (fp_text reference J2 (at 9.519996 0) (layer B.SilkS)
-      (effects (font (size 1.004591 1.004591) (thickness 0.015)) (justify mirror))
+      (effects (font (size 1.004591 1.004591) (thickness 0.15)) (justify mirror))
     )
     (fp_text value TRRS (at 0.91336 -6.392105) (layer B.Fab)
       (effects (font (size 1.003724 1.003724) (thickness 0.015)) (justify mirror))
